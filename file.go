@@ -44,7 +44,7 @@ func (e errorList) err() error {
 }
 
 func init() {
-	logger.Register("file", NewFile)
+	logger.Register("fileprovider", NewFile)
 }
 
 var (
